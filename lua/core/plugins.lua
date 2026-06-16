@@ -18,7 +18,6 @@ return require('packer').startup(function(use)
   use 'nvim-tree/nvim-tree.lua' -- file tree
   use 'nvim-tree/nvim-web-devicons' -- icons for the nvim tree
   use 'nvim-lualine/lualine.nvim'
-  -- do treesitter (dont forget pls)
   use 'nvim-treesitter/nvim-treesitter'
   use {
     'nvim-telescope/telescope.nvim', 
