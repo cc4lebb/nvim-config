@@ -14,7 +14,7 @@ local packer_bootstrap = ensure_packer()
 return require('packer').startup(function(use)
   use 'wbthomason/packer.nvim'
   -- My plugins here
-  use 'ellisonleao/gruvbox.nvim' -- colour scheme
+  use { "catppuccin/nvim", as = "catppuccin" }
   use 'nvim-tree/nvim-tree.lua' -- file tree
   use 'nvim-tree/nvim-web-devicons' -- icons for the nvim tree
   use 'nvim-lualine/lualine.nvim'
