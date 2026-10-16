@@ -18,4 +18,5 @@ A lightweight and minimal Neovim configuration focused on a clean workflow, fast
 
 ## If cloning:
 
-open Neovim and run :PackerSync once to install and update all plugins
+1. go to ~/.config and rename nvim-config to nvim
+2. type nvim and run :PackerSync once to install and update all plugins
