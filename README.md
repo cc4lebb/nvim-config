@@ -9,6 +9,10 @@ My personal Neovim setup, built on the [LazyVim starter](https://github.com/Lazy
 - A [Nerd Font](https://www.nerdfonts.com/) set in your terminal (for icons)
 - Recommended: `ripgrep`, `fd`, and a C compiler (`gcc`/`clang`) for search and Treesitter
 
+for latex:
+- latexmk: Build automation to handle compilation (\ll)
+- zathura and zathura-pdf-poppler: handles pdf viewing in WSL
+
 ## Installation
 
 Back up any existing config, then clone this repo into your Neovim config folder:
@@ -47,6 +51,8 @@ On first launch, lazy.nvim installs all plugins automatically. Restart Neovim on
 | `<leader>sh` | Search help pages |
 | `<leader>l` | Open the Lazy plugin manager |
 | `<leader>L` | LazyVim changelog |
+| `\ll` | Compile latex |
+| `\v` | View Latex pdf | 
 
 ## Tips
 
