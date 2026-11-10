@@ -23,6 +23,7 @@ return {
 
 				-- Configs, Shell & Tooling
 				"bash",
+				"txt",
 				"dockerfile",
 				"json",
 				"yaml",
